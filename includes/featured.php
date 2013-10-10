@@ -8,7 +8,8 @@
 	$featured_cat = get_option('thesource_feat_cat');
 	$featured_num = (int) get_option('thesource_featured_num');
 
-	if (get_option('thesource_use_pages') == 'false') query_posts("posts_per_page=$featured_num&cat=".get_catId($featured_cat));
+	// if (get_option('thesource_use_pages') == 'false') query_posts("posts_per_page=$featured_num&cat=".get_catId($featured_cat));
+	if (get_option('thesource_use_pages') == 'false') query_posts("posts_per_page=$featured_num");
 	else {
 		global $pages_number;
 
