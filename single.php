@@ -54,6 +54,6 @@
 			<?php endwhile; endif; ?>
 			</div> <!-- end #recent-posts -->
 
-		<?php get_template_part("sidebar"); ?>
+		<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
