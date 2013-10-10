@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<! -- un cambio -->
 <?php if (get_option('thesource_recent_fromcat_display') == 'on') { ?>
 	<div id="from-categories" class="clearfix">
 		<?php $last = false; ?>
