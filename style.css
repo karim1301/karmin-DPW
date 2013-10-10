@@ -135,7 +135,8 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
  
 			body#home #main-content {background:url(images/main_content_bg.png) repeat-y scroll 378px 39px #FFFFFF; }
 			#main-content { background:url("images/main_content_bg2.png") repeat-y scroll 408px 39px #FFFFFF; }
-				#recent-posts {width: 637px; background: none; float: left; }
+				/*#recent-posts {width: 637px; background: none; float: left; }*/
+				#recent-posts {width: 617px; background: none; float: left; }/* comentar si no funciona */
 				div#top-shadow { background: url(images/index-shadow.png) repeat-x; height: 26px; width: 100%; position: absolute; top: 0px; left: 0px; }
 
 				body#home #recent-posts { width: 617px; background: #fff url(images/rec_posts_bg.png) repeat-x 2px 0px; }
